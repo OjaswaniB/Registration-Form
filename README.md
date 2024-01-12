@@ -4,7 +4,7 @@ This repository contains a simple registration form implementation using HTML, C
 ## Features
 
 - User registration with MongoDB database storage
-- Express server for handling requests
+- Express server for handling requests 
 - Custom font integration for a visually appealing design
 
 ## Prerequisites
