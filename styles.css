@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato;
+  }
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg,#284a8c, #aab2ff,#f7d486,#f27a7d);
+    background-size:300% 300%;
+    animation: color 20s ease-in-out infinite;
+}
+
+  @keyframes color{
+    0%{
+        background-position:0 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+  }
+
+.form-box{
+    text-align: center;
+    height: 525px;
+    width: 600px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 60px 70px;
+    transform: translate(-50%, 50%);
+    top: -25%;
+    left: 50%;
+}
+
+.form-box h1{
+    margin-bottom:20px; 
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background: transparent;
+    border: 0;
+    outline:0;
+    width: 100%;
+    height:25px ;
+}
+
+.form-input{
+    background-color: #e0e0e0;
+    padding:4% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius:7px ;
+    margin-block: 7px;
+    height: 45px;
+    width:480px
+}
+
+i{
+    margin-left: 10px;
+}
+
+.heading{
+    text-align: left;
+            width: 100%;
+            margin-bottom: -2px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px ;
+}
+
+button{
+    padding: 10px 30px ;
+    margin-top: 15px;
+    outline: 0;
+    border:0;
+    background-color: #284a8c;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #295cc3;
+    cursor:pointer;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.iconEjs {
+    font-size: 250px;
+    padding-block: 5%;
+    top: 50%;
+    left: 50%;
+}
+
+.failure{
+    color: rgb(212, 45, 45);
+    transform: translate(-1%,22%);
+}
+.failure:hover{
+    color: rgb(204, 0, 0);
+}
+
+.success{
+    color: rgb(7, 119, 7);
+    transform: translate(-1%,22%);
+}
+
+.success:hover{
+    color: rgb(1, 120, 1);
+}
