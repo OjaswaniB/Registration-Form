@@ -21,20 +21,26 @@ Before you begin, ensure you have met the following requirements:
 
 ## Folder Structure
 
-├── public/                 # Frontend assets (HTML, CSS, JS)
-│   ├── css/styles.css
-├── views/                    # Backend source code for ejs
-│   ├── success.ejs
-│   ├── failure.ejs
-│   ├── header.ejs
-│   ├── footer.ejs
-├── models/                  # for database
-│   ├── modelDb.js
+├── public/css/styles.css
+
+├── views/success.ejs 
+├── views/failure.ejs 
+├── views/header.ejs
+├── views/footer.ejs  
+
+
+├── models/modelDb.js
+
 ├──index.html
+
 ├── app.js
+
 ├── node modules/
-├── package-lock.json             
+
+├── package-lock.json  
+
 ├── package.json
+
 ├── README.md
 
 ## Installation
